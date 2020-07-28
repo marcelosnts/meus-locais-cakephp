@@ -1,0 +1,24 @@
+a {
+    color: #606c76;
+}
+
+.MG {
+    background-color: #2f7fae;
+    color: #ffffff;
+}
+
+.MG a {
+    color: #ffffff;
+}
+
+button {
+    background-color: #2f7fae;
+    color: #ffffff;
+    border: 0;
+}
+
+.container li {
+    display: flex;
+    float: left;
+    padding: 10px;
+}
