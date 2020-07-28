@@ -16,3 +16,7 @@
     echo $this->Form->button(__('Salvar local'));
     echo $this->Form->end();
 ?>
+
+<?= $this->Html->css('app') ?>
+<?= $this->Html->script('jquery') ?>
+<?= $this->Html->script('viacep_api') ?>

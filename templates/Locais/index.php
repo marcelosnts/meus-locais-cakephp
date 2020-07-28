@@ -4,14 +4,18 @@
 
 <table>
     <tr>
-        <th>Nome</th>
+        <th><?= $this->Paginator->sort('nome', 'Local'); ?></th>
+        <th><?= $this->Paginator->sort('data', 'Data da visita'); ?></th>
         <th>Ações</th>
     </tr>
 
     <?php foreach ($locais as $local): ?>
-    <tr>
+    <tr class=<?= $local->uf == 'MG' ? 'MG' : '' ?>>
         <td>
-            <?= $this->Html->link($local->nome, ['action' => 'view', $local->id]) ?>
+            <?= $local->nome ?>
+        </td>
+        <td>
+            <?= $local->data ?>
         </td>
         <td>
             <?= $this->Html->link('Editar', ['action' => 'edit', $local->id]) ?>
@@ -25,3 +29,7 @@
     </tr>
     <?php endforeach; ?>
 </table>
+<br>
+<?= $this->Paginator->numbers(); ?>
+
+<?= $this->Html->css('app') ?>
