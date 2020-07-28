@@ -24,7 +24,7 @@ Run the **composer install** on the project folder to download its dependencies.
 composer install
 ```
 
-Configure your database connection on *config/app_local.php* based on your [environment]('https://book.cakephp.org/4/en/orm/database-basics.html#database-configuration').
+Configure your database connection on *config/app_local.php* based on your [environment](https://book.cakephp.org/4/en/orm/database-basics.html#database-configuration).
 
 
 ## Running
