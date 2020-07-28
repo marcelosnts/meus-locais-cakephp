@@ -1,6 +1,4 @@
-<h1>Meus Locais</h1>
-
-<?= $this->Html->link('Adicionar novo local', ['action' => 'add']) ?>
+<h1>Listagem</h1>
 
 <table>
     <tr>

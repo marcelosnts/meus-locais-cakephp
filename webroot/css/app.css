@@ -1,24 +1,44 @@
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
 a {
     color: #606c76;
 }
-
+form {
+    padding: 30px;
+}
+label {
+    font-size: 15px;
+}
+input {
+    font-size: 15px;
+}
 .MG {
     background-color: #2f7fae;
     color: #ffffff;
 }
-
 .MG a {
     color: #ffffff;
 }
-
 button {
     background-color: #2f7fae;
     color: #ffffff;
     border: 0;
 }
-
 .container li {
     display: flex;
     float: left;
     padding: 10px;
+}
+footer {
+    position: fixed;
+    background-color: #606c76;
+    color: #ffffff;
+    width: 100%;
+    top: 97%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    vertical-align: middle;
 }
