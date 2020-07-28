@@ -2,6 +2,7 @@
 
 App build based on CakePHP default layout and docs.
 
+
 ## Environment
 
 PHP: 7.4.8
@@ -14,7 +15,8 @@ XAMPP
 
 Composer 1.10.9
 
-## Praparation
+
+## Preparation
 
 Run the **composer install** on the project folder to download its dependencies.
 
@@ -23,6 +25,7 @@ composer install
 ```
 
 Configure your database connection on *config/app_local.php* based on your [enviorment]('https://book.cakephp.org/4/en/orm/database-basics.html#database-configuration').
+
 
 ## Running
 
