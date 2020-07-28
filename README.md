@@ -5,9 +5,13 @@ App build based on CakePHP default layout and docs.
 ## Environment
 
 PHP: 7.4.8
+
 CakePHP: 4
+
 MySQL (MariaDB): 10.4.13
+
 XAMPP
+
 Composer 1.10.9
 
 ## Praparation
