@@ -9,8 +9,15 @@
             $this->loadComponent('Flash');
         }
 
+        public $paginate = [
+            'limit' => 10,
+            'order' => [
+                'Locais.data' => 'asc'
+            ]
+        ];
+
         public function index() {
-            $locais = $this->Paginator->paginate($this->Locais->find());
+            $locais = $this->paginate($this->Locais->find());
             $this->set(compact('locais'));
         }
 
